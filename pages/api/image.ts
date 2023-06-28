@@ -19,7 +19,7 @@ export default async function handler(
   }
 
   const url = new URL(
-    "https://source.unsplash.com/collection/2310706/2400x1600"
+    "https://source.unsplash.com/collection/8673719/2400x1600"
   );
 
   const imageResponse = await fetch(url);
